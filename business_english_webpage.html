@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <title>English Teaching Business</title>
+</head>
+<body>
+  <nav class="container-fluid">
+    <ul>
+      <li><strong>EnglishPro</strong></li>
+    </ul>
+    <ul>
+      <li><a href="#description">About Us</a></li>
+      <li><a href="#timetable">Timetable</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <main class="container">
+    <!-- Business Description -->
+    <section id="description">
+      <hgroup>
+        <h2>Welcome to EnglishPro</h2>
+        <h3>Your pathway to mastering English</h3>
+      </hgroup>
+      <p>
+        At EnglishPro, we specialize in teaching English to students of all levels and backgrounds. 
+        Whether you’re looking to improve your conversational skills, prepare for an exam, or boost 
+        your confidence in business communication, we’ve got you covered!
+      </p>
+      <p>
+        Join our experienced instructors in a supportive, engaging learning environment designed to 
+        help you achieve your goals. Our flexible lesson schedule allows you to learn at your own pace.
+      </p>
+    </section>
+
+    <!-- Timetable -->
+    <section id="timetable">
+      <hgroup>
+        <h2>Lesson Timetable</h2>
+        <h3>Choose a time that works for you</h3>
+      </hgroup>
+      <table role="grid">
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Time</th>
+            <th>Level</th>
+            <th>Instructor</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td>10:00 AM - 11:30 AM</td>
+            <td>Beginner</td>
+            <td>John Smith</td>
+          </tr>
+          <tr>
+            <td>Tuesday</td>
+            <td>2:00 PM - 3:30 PM</td>
+            <td>Intermediate</td>
+            <td>Emily Davis</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>6:00 PM - 7:30 PM</td>
+            <td>Advanced</td>
+            <td>Michael Brown</td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>5:00 PM - 6:30 PM</td>
+            <td>Conversation Practice</td>
+            <td>Anna White</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>10:00 AM - 11:30 AM</td>
+            <td>Exam Preparation</td>
+            <td>Rachel Green</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+      <hgroup>
+        <h2>Contact Us</h2>
+        <h3>We’d love to hear from you!</h3>
+      </hgroup>
+      <form class="grid">
+        <input type="text" id="name" name="name" placeholder="Your Name" aria-label="Your Name" required>
+        <input type="email" id="email" name="email" placeholder="Your Email" aria-label="Your Email" required>
+        <textarea id="message" name="message" placeholder="Your Message" aria-label="Your Message" required></textarea>
+        <button type="submit" onclick="event.preventDefault()">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="container">
+    <small>
+      <a href="#description">About Us</a> • 
+      <a href="#timetable">Timetable</a> • 
+      <a href="#contact">Contact</a>
+    </small>
+  </footer>
+</body>
+</html>
